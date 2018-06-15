@@ -10,10 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
+    "ffmpeg": "0.0.4",
     "fortnite": "^4.1.1",
     "google": "^2.1.0",
     "mojang-api": "0.0.2",
     "moment": "^2.22.2",
+    "rainbowsix-api-node": "0.0.1",
     "simple-youtube-api": "^5.0.2",
     "snekfetch": "^4.0.2",
     "superagent": "^3.8.3",

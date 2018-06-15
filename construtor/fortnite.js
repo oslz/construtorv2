@@ -41,7 +41,7 @@ exports.run = (client, message, args, tools) => {
             "fields": [
                 {
                   "name": `:crown: Fortnite Status :crown:`,
-                  "value": `**Usuário**: ${data.username}\n**Modo**: Dupla \n\n**Jogou**: ${mplayed}\n**Ganhou**: ${wins} (${winper}%)\n**Matou**: ${kills} (${kd}%)`,
+                  "value": `**Usuário**: ${data.username}\n\n**Jogou**: ${mplayed}\n**Ganhou**: ${wins} (${winper})\n**Matou**: ${kills} (${kd}%)`,
                   "inline": true
                   
                   

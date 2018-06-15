@@ -7,7 +7,7 @@ const ytdl = require('ytdl-core');
 const superagent = require('superagent');
 
 const youtube = new YouTube(GOOGLE_API_KEY);
-
+var ffmpeg = require('ffmpeg');
 const queue = new Map();
 client.login("NDU1ODEyODI1MzcwMTk4MDE2.DgBcVA.nC_1k_4vKE3-hW2nG_q58avftX4");
 client.on('warn', console.warn);
